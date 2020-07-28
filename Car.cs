@@ -31,15 +31,8 @@ namespace Lab5._3CarLot
 
         public override string ToString()
         {
-            if(Model.Length > 7)
-            {
-                return $"{Make}\t{Model}\t{Year}\t{Price}";
-            }
-            else
-            {
-                return $"{Make}\t{Model}\t\t{Year}\t{Price}";
-            }
-            
+            return String.Format("\t{0,4}\t{1,8}{2,6}{3,10}", Make, Model, Year, Price);
+
         }
     }
     class UsedCar : Car
@@ -57,14 +50,7 @@ namespace Lab5._3CarLot
 
         public override string ToString()
         {
-            if (Model.Length > 7)
-            {
-                return $"{Make}\t{Model}\t{Year}\t{Price}\t(Used)\t{Mileage} miles";
-            }
-            else
-            {
-                return $"{Make}\t{Model}\t\t{Year}\t{Price}\t(Used)\t{Mileage} miles";
-            }
+            return String.Format("\t{0,4}\t{1,8}{2,6}{3,10}(Used){4,10} miles",Make,Model,Year,Price,Mileage);
         }
     }
 }

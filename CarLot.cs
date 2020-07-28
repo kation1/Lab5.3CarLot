@@ -6,23 +6,26 @@ namespace Lab5._3CarLot
 {
     class CarLot
     {
+        public static List<CarLot> Lots = new List<CarLot>();
         public List<Car> Inventory = new List<Car>();
         public string Name { get; set; }
 
         public CarLot(string aName)
         {
             Name = aName;
+            Lots.Add(this);
         }
 
 
         public void AddCar(Car newcar)
         {
             Inventory.Add(newcar);
-            //Console.WriteLine($"Car added to inventory of {Name}");
+
         }
 
         public void DisplayMenu()
         {
+            Console.WriteLine($"Welcome to {Name}");
             DisplayInventory();
             Console.WriteLine($"{Inventory.Count + 1}. Add a Car\n{Inventory.Count +2} Quit");
         }
