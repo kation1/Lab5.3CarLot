@@ -6,23 +6,41 @@ namespace Lab5._3CarLot
     class Program
     {
 
-        static int LotChoice()
+        static int LotChoice(List<CarLot> places)
         {
-            Console.WriteLine("Where you want to shop? Dave's or Kathryn's?");
-            string userLotChoice = Console.ReadLine();
+            
+            string userLotChoice = "";
             int location = -1;
-
-            if (userLotChoice == "Kathryn")
+            bool isValid = false;
+            do
             {
-                location = 0;
-                return location;
-            }
-            else if (userLotChoice == "Dave")
-            {
-                location = 1;
-                return location;
-            }
-            return -1;
+                Console.Clear();
+                int i = 0;
+                for (i = 0; i < places.Count; i++)
+                {
+                    Console.WriteLine(String.Format("{0,4}. {1,-15}", i + 1, places[i].Name));
+                }
+                Console.WriteLine("{0,4}. exit", i + 1);
+                Console.Write("Where you want to shop?: ");
+                userLotChoice = Console.ReadLine();
+                isValid = int.TryParse(userLotChoice, out location);
+                if (!isValid)
+                {
+                    continue;
+                }
+                //if (userLotChoice == "1")
+                //{
+                //    location = 0;
+                //    return location;
+                //}
+                //else if (userLotChoice == "2")
+                //{
+                //    location = 1;
+                //    return location;
+                //}
+                //return -1;
+            } while (location > places.Count + 1 || location < 1);
+            return location-1;
         }
         static void Main(string[] args)
         {
@@ -42,12 +60,11 @@ namespace Lab5._3CarLot
                 CarLot.Lots[0].AddCar(recentMustang);
             }
 
-
            
             do
             {
                 int input = 0;
-                location = LotChoice();
+                location = LotChoice(CarLot.Lots);
                 if (location == 1 || location == 0)
                 {
                     do
@@ -56,7 +73,7 @@ namespace Lab5._3CarLot
                         Console.Clear();
 
                         CarLot.Lots[location].DisplayMenu();
-                        input = GetInteger("Select an input: ", CarLot.Lots[location]);
+                        input = GetInteger("Select an ID: ", CarLot.Lots[location]);
                         if (input <= CarLot.Lots[location].Inventory.Count)
                         {
                             CarLot.Lots[location].BuyaCar(input);
@@ -72,8 +89,8 @@ namespace Lab5._3CarLot
                         }
                     } while (input != CarLot.Lots[location].Inventory.Count + 2);
                 }
-            } while (location != -1);
-           
+            } while (location != CarLot.Lots.Count);
+            Console.WriteLine("Thank you foor using the car lot shopping app");
         }
         static int GetInteger(string quest, CarLot lot)
         {

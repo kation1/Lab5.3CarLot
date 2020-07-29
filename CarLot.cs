@@ -25,9 +25,11 @@ namespace Lab5._3CarLot
 
         public void DisplayMenu()
         {
-            Console.WriteLine($"Welcome to {Name}");
+            Console.WriteLine($"Welcome to {Name}\n");
+            Console.WriteLine(String.Format("ID\t{0,4}\t{1,8}{2,6}{3,15}  if Used{4,13}", "Make", "Model", "Year", "Price","Mileage"));
+            Console.WriteLine("-------------------------------------------------------------------------");
             DisplayInventory();
-            Console.WriteLine($"{Inventory.Count + 1}. Add a Car\n{Inventory.Count +2} Quit");
+            Console.WriteLine($"{Inventory.Count + 1}. Add a Car\n{Inventory.Count +2}. Leave car lot");
         }
 
         public int HowManyCars()
@@ -64,15 +66,16 @@ namespace Lab5._3CarLot
         }
         public Car GetInfo()
         {
-            Console.WriteLine("Make:");
+            Console.Write("Make:");
             string make = Console.ReadLine();
-            Console.WriteLine("Model:");
+            Console.Write("Model:");
             string model = Console.ReadLine();
-            Console.WriteLine("year:");
+            Console.Write("year:");
             int year = int.Parse(Console.ReadLine());
-            Console.WriteLine("Price:");
+            Console.Write("Price:");
             decimal price = decimal.Parse(Console.ReadLine());
-            Console.WriteLine("Milage:");
+            Console.WriteLine("if mileage is over 100 car will be considered used");
+            Console.Write("Milage:");
             int mileage = int.Parse(Console.ReadLine());
 
             if (mileage > 100)
@@ -86,10 +89,6 @@ namespace Lab5._3CarLot
                 return car;
             }
             
-
-
-
-
         }
     }
 }

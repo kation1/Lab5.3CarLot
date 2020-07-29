@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oY7LKs0rUNDMkAloZ4ssXRLfcdrOCnINp95bVmep7Un2lqiy4PezklvtxgoSTzRvW+DuiAvEk4WxHKnrZld6uw==",
+  "dgSpecHash": "lrX2vId011iMRifnljfRpKAgq6gnssb0eZ3w29NWdKEu1L6i0A0d8ugamZxLgpsRdfonJY+QHGyJt0AxBUvCwA==",
   "success": true,
-  "projectFilePath": "C:\\devbuild\\Week5\\Lab5.3CarLot\\Lab5.3CarLot.csproj",
+  "projectFilePath": "C:\\DevBuild4\\GrandCircus\\CarLot\\Lab5.3CarLot\\Lab5.3CarLot.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

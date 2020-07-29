@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\devbuild\\Week5\\Lab5.3CarLot\\Lab5.3CarLot.csproj": {}
+    "C:\\DevBuild4\\GrandCircus\\CarLot\\Lab5.3CarLot\\Lab5.3CarLot.csproj": {}
   },
   "projects": {
-    "C:\\devbuild\\Week5\\Lab5.3CarLot\\Lab5.3CarLot.csproj": {
+    "C:\\DevBuild4\\GrandCircus\\CarLot\\Lab5.3CarLot\\Lab5.3CarLot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\devbuild\\Week5\\Lab5.3CarLot\\Lab5.3CarLot.csproj",
+        "projectUniqueName": "C:\\DevBuild4\\GrandCircus\\CarLot\\Lab5.3CarLot\\Lab5.3CarLot.csproj",
         "projectName": "Lab5.3CarLot",
-        "projectPath": "C:\\devbuild\\Week5\\Lab5.3CarLot\\Lab5.3CarLot.csproj",
-        "packagesPath": "C:\\Users\\kpidek\\.nuget\\packages\\",
-        "outputPath": "C:\\devbuild\\Week5\\Lab5.3CarLot\\obj\\",
+        "projectPath": "C:\\DevBuild4\\GrandCircus\\CarLot\\Lab5.3CarLot\\Lab5.3CarLot.csproj",
+        "packagesPath": "C:\\Users\\DHeizer\\.nuget\\packages\\",
+        "outputPath": "C:\\DevBuild4\\GrandCircus\\CarLot\\Lab5.3CarLot\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\kpidek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DHeizer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
