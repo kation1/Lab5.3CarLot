@@ -11,3 +11,16 @@ C:\devbuild\Week5\Lab5.3CarLot\bin\Debug\netcoreapp3.1\Lab5.3CarLot.pdb
 C:\devbuild\Week5\Lab5.3CarLot\obj\Debug\netcoreapp3.1\Lab5.3CarLot.dll
 C:\devbuild\Week5\Lab5.3CarLot\obj\Debug\netcoreapp3.1\Lab5.3CarLot.pdb
 C:\devbuild\Week5\Lab5.3CarLot\obj\Debug\netcoreapp3.1\Lab5.3CarLot.genruntimeconfig.cache
+C:\DevBuild4\GrandCircus\CarLot\Lab5.3CarLot\bin\Debug\netcoreapp3.1\Lab5.3CarLot.exe
+C:\DevBuild4\GrandCircus\CarLot\Lab5.3CarLot\bin\Debug\netcoreapp3.1\Lab5.3CarLot.deps.json
+C:\DevBuild4\GrandCircus\CarLot\Lab5.3CarLot\bin\Debug\netcoreapp3.1\Lab5.3CarLot.runtimeconfig.json
+C:\DevBuild4\GrandCircus\CarLot\Lab5.3CarLot\bin\Debug\netcoreapp3.1\Lab5.3CarLot.runtimeconfig.dev.json
+C:\DevBuild4\GrandCircus\CarLot\Lab5.3CarLot\bin\Debug\netcoreapp3.1\Lab5.3CarLot.dll
+C:\DevBuild4\GrandCircus\CarLot\Lab5.3CarLot\bin\Debug\netcoreapp3.1\Lab5.3CarLot.pdb
+C:\DevBuild4\GrandCircus\CarLot\Lab5.3CarLot\obj\Debug\netcoreapp3.1\Lab5.3CarLot.csprojAssemblyReference.cache
+C:\DevBuild4\GrandCircus\CarLot\Lab5.3CarLot\obj\Debug\netcoreapp3.1\Lab5.3CarLot.AssemblyInfoInputs.cache
+C:\DevBuild4\GrandCircus\CarLot\Lab5.3CarLot\obj\Debug\netcoreapp3.1\Lab5.3CarLot.AssemblyInfo.cs
+C:\DevBuild4\GrandCircus\CarLot\Lab5.3CarLot\obj\Debug\netcoreapp3.1\Lab5.3CarLot.csproj.CoreCompileInputs.cache
+C:\DevBuild4\GrandCircus\CarLot\Lab5.3CarLot\obj\Debug\netcoreapp3.1\Lab5.3CarLot.dll
+C:\DevBuild4\GrandCircus\CarLot\Lab5.3CarLot\obj\Debug\netcoreapp3.1\Lab5.3CarLot.pdb
+C:\DevBuild4\GrandCircus\CarLot\Lab5.3CarLot\obj\Debug\netcoreapp3.1\Lab5.3CarLot.genruntimeconfig.cache

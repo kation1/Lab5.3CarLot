@@ -31,7 +31,7 @@ namespace Lab5._3CarLot
 
         public override string ToString()
         {
-            return String.Format("\t{0,4}\t{1,8}{2,6}{3,10}", Make, Model, Year, Price);
+            return String.Format("\t{0,4}\t{1,8}{2,6}{3,15:C2}", Make, Model, Year, Price);
 
         }
     }
@@ -50,7 +50,7 @@ namespace Lab5._3CarLot
 
         public override string ToString()
         {
-            return String.Format("\t{0,4}\t{1,8}{2,6}{3,10}(Used){4,10} miles",Make,Model,Year,Price,Mileage);
+            return String.Format("\t{0,4}\t{1,8}{2,6}{3,15:C2}  (Used){4,10:N2} miles",Make,Model,Year,Price,Mileage);
         }
     }
 }
